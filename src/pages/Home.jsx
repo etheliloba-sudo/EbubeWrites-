@@ -7,7 +7,7 @@ export default function Home({ posts }) {
         <div>
           <h1>Notes from a reading life</h1>
           <p>
-            Gentle reviews, reflections, and thoughts on books that linger,
+            Reviews, reflections, and thoughts on books that linger,
             stories that comfort, unsettle, and quietly change us.
           </p>
         </div>
