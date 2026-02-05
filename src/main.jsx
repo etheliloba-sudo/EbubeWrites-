@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { RouterProvider } from '@tanstack/react-router';
 import './index.css';
 import { router } from './router';
-import { PageLoader } from './Components/PageLoader';
+import { PageLoader } from './components/PageLoader';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

@@ -5,10 +5,10 @@ import {
   createRoute,
   createRouter,
 } from '@tanstack/react-router';
-import { NavBar } from './Components/NavBar';
-// import { getPostBySlug, getPosts } from './data/posts'; 
-import { PageLoader } from './Components/PageLoader';
-// import { ErrorPanel } from './ui/ErrorPanel'; 
+import { NavBar } from './components/NavBar';
+import { getPostBySlug, getPosts } from './data/posts';
+import { PageLoader } from './components/PageLoader';
+import { ErrorPanel } from './components/ErrorPanel';
 
 const HomePage = lazy(() => import('./pages/Home'));
 const BlogDetailsPage = lazy(() => import('./pages/BlogDetails'));
@@ -38,29 +38,30 @@ const postRoute = createRoute({
   component: PostRoute,
 });
 
-const routeTree = rootRoute.addChildren([homeRoute, postRoute]);
+const aboutRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: '/about',
+  component: AboutRoute,
+});
+
+const routeTree = rootRoute.addChildren([homeRoute, postRoute, aboutRoute]);
 
 export const router = createRouter({
   routeTree,
   defaultPreload: 'intent',
   defaultPendingComponent: () => <PageLoader label="Loading" />,
   defaultErrorComponent: ({ error }) => (
-    <ErrorPanel title="Something broke" message={error.message} />
+    <ErrorPanel title="Something broke" message={String(error?.message ?? error)}
+    />
   ),
 });
-
-// declare module '@tanstack/react-router' {
-//   interface Register {
-//     router: typeof router;
-//   }
-// }
 
 function RootLayout() {
   return (
     <div className="page-shell">
       <NavBar />
       <Outlet />
-      <footer className="footer">Made for AltSchool assessment · February 2026</footer>
+      <footer className="footer">Ebube.writes · Made for AltSchool assessment · February 2026</footer>
     </div>
   );
 }
@@ -80,7 +81,15 @@ function PostRoute() {
 
   return (
     <Suspense fallback={<PageLoader label="Opening post" />}>
-      <PostPage post={post} />
+      <BlogDetailsPage post={post} />
+    </Suspense>
+  );
+}
+
+function AboutRoute() {
+  return (
+    <Suspense fallback={<PageLoader label="Loading about" />}>
+      <AboutPage />
     </Suspense>
   );
 }
