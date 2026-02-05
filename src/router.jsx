@@ -61,7 +61,7 @@ function RootLayout() {
     <div className="page-shell">
       <NavBar />
       <Outlet />
-      <footer className="footer">Ebube.writes · Made for AltSchool assessment · February 2026</footer>
+      <footer className="footer">Ebube.writes · AltSchool assessment · February 2026</footer>
     </div>
   );
 }

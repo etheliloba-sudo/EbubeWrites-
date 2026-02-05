@@ -1,13 +1,15 @@
 import { PostCard } from '../components/PostCard';
 
-
 export default function Home({ posts }) {
   return (
     <section>
       <div className="hero">
         <div>
-          <h1>Stories for focused builders</h1>
-          <p>Short, human notes on design, shipping, and staying kind to yourself while you ship.</p>
+          <h1>Notes from a reading life</h1>
+          <p>
+            Gentle reviews, reflections, and thoughts on books that linger,
+            stories that comfort, unsettle, and quietly change us.
+          </p>
         </div>
       </div>
 

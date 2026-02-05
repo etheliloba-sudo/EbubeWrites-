@@ -1,25 +1,22 @@
 const posts = [
     {
-      slug: 'writing-when-nobody-is-watching',
-      title: 'Writing When Nobody Is Watching',
+      slug: 'michael-moscovitz',
+      title: 'Michael Moscovitz',
       excerpt:
-        'What it means to keep writing even when there is no audience, no metrics, and no applause.',
+        'If you’re an OG, you already know what this is about. If not, I’ll let you in on our secret; The Princess Diaries by Meg Cabot. I’ve read the series(or part of it) a million times. And just yesterday, I decided that book 3, Third Time Lucky, is my favourite. Michael Moscovitz is the character… ',
       content:
-        'Most writers quit in the quiet season — the stretch where no one is reading, responding, or even aware that the work exists. But this is where the real writing life is formed. Writing when nobody is watching teaches you honesty. You stop performing. You stop chasing approval. Instead, you begin listening to your own voice. The sentences get slower, truer, and more deliberate. Over time, this private discipline becomes the backbone of any public success. If you can write faithfully in obscurity, attention will never own you.',
+        'If you’re an OG, you already know what this is about. \nIf not, I’ll let you in on our secret; The Princess Diaries by Meg Cabot.\nI’ve read the series(or part of it) a million times. And just yesterday, I decided that book 3, Third Time Lucky, is my favourite. \nMichael Moscovitz is the character that you’d expect to be the “bad boy”, seeing as he’s the main character’s love interest. But he’s not, and that’s what’s so refreshing about the series. He’s super smart and kind and caring. And to be honest, I can’t believe he actually liked Mia too! He made a whole computer program to respond to her anonymous love letters. 😭\nI wonder how he put up with Mia though. I could never. She talks too much, and asks questions that make you want to break her head! \nYou should read The Princess Diaries, and be bold; read all 10 books. I think everyone would enjoy it, whether they like romance or not. \nIt’s so sad that I have a word limit because I have so much to say. But, I will bid you adieu right here, until next time…\n-JD.',
       date: 'Jan 4, 2026',
       readingTime: '6 min read',
-      tags: ['Writing', 'Discipline', 'Craft'],
     },
     {
-      slug: 'the-difference-between-sounding-smart-and-being-clear',
-      title: 'The Difference Between Sounding Smart and Being Clear',
+      slug: 'e-shock-you',
+      title: 'E shock you? Or whatever the third little pig said to the big bad wolf…',
       excerpt:
-        'Why clarity is harder than complexity, and why it matters more.',
-      content:
-        'Many early drafts lean on complexity as a form of protection. Big words, layered metaphors, and abstract phrasing can hide uncertainty. Clarity, on the other hand, requires confidence. It forces the writer to understand what they are saying well enough to say it plainly. The goal is not to simplify thought, but to sharpen it. When a sentence is clear, it respects the reader’s time. When a paragraph is precise, it invites trust. The best writing often sounds effortless because of how much effort went into removing what wasn’t necessary.',
+        'Today, I am the third little pig. He’s one of my all time children stories favourite. He was way too smart abeg. Pig 1 and Pig 2, why was it a good idea to build your house out of straw or sticks? Anyway, Pig 3 built his own house from bricks, and set a pot… ',
+      content: 'Today, I am the third little pig. He’s one of my all time children stories favourite. He was way too smart abeg. Pig 1 and Pig 2, why was it a good idea to build your house out of straw or sticks? Anyway, Pig 3 built his own house from bricks, and set a pot of boiling water on the grate, under the chimney, successfully boiling the wolf to death… An ultimate sharp guy. The funniest part is actually when the wolf threatened to huff and puff and blow Pig 3’s house down. Pig 3 was probably smiling and shaking his head at the wolf, but the wolf was forming hard guy. So he huffed and puffed and huffed and puffed, but the house no move… Then Pig 3 looked out the window and probably said something along the lines of “E shock you?” The wolf then thought he was sly and tried to enter into the chimney, only to land in his Waterloo. Our elders say, “First to do, e no dey pain”.In all things, be like the third little pig.\n-JD\nP.S. Listen to Waterloo by ABBA',
       date: 'Jan 8, 2026',
       readingTime: '5 min read',
-      tags: ['Writing', 'Clarity', 'Editing'],
     },
     {
       slug: 'learning-to-sit-with-a-paragraph',
@@ -30,7 +27,6 @@ const posts = [
         'Good writing is rarely rushed. It is sat with. A paragraph often needs time to reveal what it wants to be. When you pause — rereading slowly, listening for rhythm, checking whether the sentence earns its place — the work deepens. Sitting with a paragraph means resisting the urge to move on too quickly. It means allowing discomfort, confusion, and revision to do their work. Over time, this patience teaches you how your own voice behaves on the page.',
       date: 'Jan 13, 2026',
       readingTime: '4 min read',
-      tags: ['Process', 'Writing', 'Revision'],
     },
     {
       slug: 'on-writing-without-explaining-yourself',
@@ -41,7 +37,6 @@ const posts = [
         'Not every idea needs a disclaimer. Not every sentence needs to justify its existence. Writers often over-explain out of fear: fear of being misunderstood, ignored, or judged. But strong writing leaves space. It trusts the reader to meet the work halfway. When you allow ambiguity, you invite interpretation. When you resist over-clarifying, you preserve texture. Writing does not need to defend itself — it needs to be felt.',
       date: 'Jan 18, 2026',
       readingTime: '4 min read',
-      tags: ['Voice', 'Confidence', 'Writing'],
     },
     {
       slug: 'the-quiet-discipline-of-finishing',
@@ -52,62 +47,6 @@ const posts = [
         'Most unfinished work does not fail because it is bad. It fails because it requires endurance. Finishing demands returning on days when the work feels flat, predictable, or resistant. It is a quiet discipline — showing up without drama, making small progress, and accepting imperfection. Completion teaches more than inspiration ever will. Each finished piece sharpens your ability to begin again.',
       date: 'Jan 23, 2026',
       readingTime: '5 min read',
-      tags: ['Discipline', 'Writing', 'Practice'],
-    },
-    {
-      slug: 'finding-your-voice-by-using-it',
-      title: 'Finding Your Voice by Using It',
-      excerpt:
-        'Voice is not discovered. It is built.',
-      content:
-        'Writers often search for their voice as if it is hidden somewhere, waiting to be found. In reality, voice emerges through repetition. Through writing badly. Through finishing pieces that don’t quite work. The more you write, the more patterns appear — rhythms you return to, questions you keep asking, sentences that feel natural to you. Voice is the residue of practice.',
-      date: 'Jan 27, 2026',
-      readingTime: '4 min read',
-      tags: ['Voice', 'Practice', 'Writing'],
-    },
-    {
-      slug: 'reading-like-a-writer',
-      title: 'Reading Like a Writer',
-      excerpt:
-        'How attentive reading quietly reshapes your own sentences.',
-      content:
-        'Reading for pleasure is important, but reading like a writer changes everything. You begin noticing structure, pacing, and restraint. You see what is left unsaid. You feel where a paragraph turns. Over time, these observations seep into your own work. The page becomes a teacher. Every well-crafted piece expands your sense of what is possible.',
-      date: 'Feb 1, 2026',
-      readingTime: '5 min read',
-      tags: ['Reading', 'Craft', 'Learning'],
-    },
-    {
-      slug: 'writing-through-doubt',
-      title: 'Writing Through Doubt',
-      excerpt:
-        'Doubt doesn’t disappear — you learn to work alongside it.',
-      content:
-        'Every writer carries doubt. The difference is not its absence, but how it is handled. Doubt can sharpen attention when acknowledged, or paralyze progress when obeyed. Writing through doubt means letting the work exist before it is perfect. It means choosing motion over certainty. Over time, the doubt quiets — not because it leaves, but because it loses authority.',
-      date: 'Feb 6, 2026',
-      readingTime: '5 min read',
-      tags: ['Mindset', 'Writing', 'Process'],
-    },
-    {
-      slug: 'the-long-view-of-a-writing-life',
-      title: 'The Long View of a Writing Life',
-      excerpt:
-        'Why consistency matters more than intensity.',
-      content:
-        'Writing is not a sprint. It is a long, uneven walk. Some seasons are productive, others reflective. Taking the long view allows space for growth without panic. It reminds you that a single piece does not define you. The work accumulates quietly. Over years, not days, a body of work forms — shaped by patience, curiosity, and persistence.',
-      date: 'Feb 10, 2026',
-      readingTime: '6 min read',
-      tags: ['Perspective', 'Writing Life', 'Consistency'],
-    },
-    {
-      slug: 'why-you-should-keep-a-private-draft',
-      title: 'Why You Should Keep a Private Draft',
-      excerpt:
-        'Not everything needs to be published to matter.',
-      content:
-        'Private drafts give writers freedom. They remove the pressure of audience and outcome. In private, you can explore half-formed ideas, experiment with tone, and write without performance. These drafts often contain the most honest thinking. Over time, they become a well you can return to — proof that writing has value even before it is shared.',
-      date: 'Feb 14, 2026',
-      readingTime: '5 min read',
-      tags: ['Practice', 'Writing', 'Reflection'],
     },
   ];  
   
